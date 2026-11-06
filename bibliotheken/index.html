@@ -211,6 +211,13 @@ jetzt = dt.datetime.now()                      # aktuelles Datum und Uhrzeit
 in_30_tagen = jetzt + dt.timedelta(days=30)    # mit Daten rechnen
 print(jetzt.strftime("%d.%m.%Y %H:%M"))        # deutsches Format, z. B. 21.10.2026 14:05
 </pre>
+    <p>Wird nur das <strong>Datum ohne Uhrzeit</strong> gebraucht, verwendet man <code>dt.date</code>: <code>dt.date.today()</code> liefert das heutige Datum, <code>dt.date(2026, 12, 31)</code> legt ein bestimmtes Datum fest (Jahr, Monat, Tag). Zieht man zwei Daten voneinander ab, erhält man eine Zeitspanne – <code>.days</code> liefert daraus die Anzahl der Tage.</p>
+<pre class="py block">
+heute = dt.date.today()                        # nur das Datum, z. B. 2026-11-06
+silvester = dt.date(2026, 12, 31)              # ein bestimmtes Datum: Jahr, Monat, Tag
+rest = silvester - heute                       # Zeitspanne zwischen zwei Daten
+print(f"Noch {rest.days} Tage bis Silvester")  # .days: Anzahl der Tage
+</pre>
     <div class="card" id="dt-lab">
       <h3>datetime ausprobieren</h3>
       <div class="lab-row">
