@@ -16,6 +16,7 @@ schleifen
 listen
 # mehrdimensionale listen
 dictionaries
+bibliotheken
 # funktionen
 # textdateien
 # strings
