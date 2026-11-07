@@ -12,6 +12,7 @@ variablen
 operatoren
 eva
 verzweigungen
+07_Verzeigungen_Aufgaben_Stunde.ipynb
 schleifen
 listen
 # mehrdimensionale listen
