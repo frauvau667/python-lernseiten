@@ -12,8 +12,6 @@ variablen
 operatoren
 eva
 verzweigungen
-07_Verzeigungen_Aufgaben_Stunde.ipynb
-verzweigungen/02_Baustein2_Port_pruefen.ipynb
 schleifen
 listen
 # mehrdimensionale listen
